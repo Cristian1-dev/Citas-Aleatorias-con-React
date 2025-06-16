@@ -1,0 +1,15 @@
+#boton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+#boton:hover {
+    background-color: orange;
+}

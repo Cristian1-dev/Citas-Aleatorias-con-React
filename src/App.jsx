@@ -1,10 +1,17 @@
-import { Titulo } from './componentes/Titulo'
+import { Titulo } from './componentes/Titulo.jsx'
+import { Cita } from './componentes/Cita.jsx'
+import { citas } from './arregloCitas.jsx';
 import './App.css'
 
 function App() {
+  let titulo = 'Citas Motivacionales';
+
+
+
   return (
     <div className="contenedor">
-      <Titulo />
+      <Titulo titulo={titulo} />
+      <Cita />
     </div>
   )
 }
